@@ -5,8 +5,8 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start:main": "node server.js",
+    "start:blog": "node blog-server.js"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
