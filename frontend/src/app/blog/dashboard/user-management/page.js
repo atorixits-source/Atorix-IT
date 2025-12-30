@@ -73,7 +73,7 @@ export default function UserManagement() {
       }
       
       // Make the API request
-      const response = await fetch('http://localhost:5000/api/blog/users', {
+      const response = await fetch('https://atorix-blogs-server1.onrender.com/api/blog/users', {
         method: 'GET',
         headers: {
           'Accept': 'application/json',
@@ -188,7 +188,7 @@ export default function UserManagement() {
       }
 
       console.log('Updating user with data:', editingUser);
-      const response = await fetch(`http://localhost:5000/api/blog/users/${editingUser.id}`, {
+      const response = await fetch(`https://atorix-blogs-server1.onrender.com/api/blog/users/${editingUser.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -249,7 +249,7 @@ export default function UserManagement() {
       }
       
       console.log(`Attempting to delete user with ID: ${id}`);
-      const response = await fetch(`http://localhost:5000/api/blog/users/${id}`, {
+      const response = await fetch(`https://atorix-blogs-server1.onrender.com/api/blog/users/${id}`, {
         method: 'DELETE',
         headers: {
           'Accept': 'application/json',
