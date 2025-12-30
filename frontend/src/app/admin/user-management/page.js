@@ -38,7 +38,7 @@ const DEFAULT_VALIDATION_ERRORS = {};
 //   updatedAt: string
 // }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://atorix-backend-server.onrender.com";
 const ADMIN_API_URL = `${API_BASE_URL}/api`;
 
 export default function UserManagement() {
@@ -72,7 +72,7 @@ export default function UserManagement() {
         setLoadingUsers(true);
         setApiError(null);
         
-        const API_URL = 'http://localhost:5001/api';
+        const API_URL = 'https://atorix-backend-server.onrender.com/api';
         console.log('Fetching admin users from:', `${API_URL}/users`);
         const authHeaders = getAuthHeader();
         const res = await fetch(`${API_URL}/users`, {

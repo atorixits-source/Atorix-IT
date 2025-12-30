@@ -70,7 +70,7 @@ export default function HRDashboard() {
   const fetchHiringData = async () => {
     try {
       setLoading(true);
-      const url = `http://localhost:5001/api/job-applications?page=${pagination.page}&limit=${pagination.pageSize}`;
+      const url = `https://atorix-backend-server.onrender.com/api/job-applications?page=${pagination.page}&limit=${pagination.pageSize}`;
       
       const response = await fetch(url, {
         headers: {

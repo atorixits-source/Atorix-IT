@@ -13,7 +13,7 @@ export async function POST(request) {
     }
 
     // Send the request to the backend API
-    const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:5001'}/api/demo-requests`, {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL || 'https://atorix-backend-server.onrender.com'}/api/demo-requests`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ export async function POST(request) {
 
 export async function GET() {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:5001'}/api/demo-requests`);
+    const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL || 'https://atorix-backend-server.onrender.com'}/api/demo-requests`);
     const data = await response.json();
 
     if (!response.ok) {

@@ -143,7 +143,7 @@ export default function BusinessDashboard() {
   const fetchLeads = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await fetch("http://localhost:5001/api/demo-requests", {
+      const response = await fetch("https://atorix-blogs-server1.onrender.com/api/demo-requests", {
         headers: {
           "Content-Type": "application/json",
           "Cache-Control": "no-cache",

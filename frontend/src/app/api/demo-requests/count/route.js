@@ -3,7 +3,7 @@ import { apiRequest } from '@/lib/api';
 
 export async function GET() {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001'}/api/demo-requests/count`, {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'https://atorix-backend-server.onrender.com'}/api/demo-requests/count`, {
       headers: {
         'Content-Type': 'application/json',
       },

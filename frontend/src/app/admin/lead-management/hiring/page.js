@@ -152,7 +152,7 @@ export default function HiringManagement() {
       setLoading(true);
       setError(null);
       
-      const url = `http://localhost:5001/api/job-applications?page=${pagination.page}&limit=${pagination.pageSize}&search=${searchTerm}`;
+      const url = `https://atorix-backend-server.onrender.com/api/job-applications?page=${pagination.page}&limit=${pagination.pageSize}&search=${searchTerm}`;
       console.log('Fetching from URL:', url);
       
       let response;
@@ -372,7 +372,7 @@ export default function HiringManagement() {
                                 </button>
                                 {application.resumePath && (
                                   <a
-                                    href={`http://localhost:5001${application.resumePath}`}
+                                    href={`http:atorix-backend-server.onrender.com${application.resumePath}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-600 hover:text-gray-900"
@@ -566,7 +566,7 @@ export default function HiringManagement() {
                                 <dt className="text-sm font-medium text-gray-500">Resume</dt>
                                 <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
                                   <a
-                                    href={`http://localhost:5001${selectedApplication.resumePath}`}
+                                    href={`https://atorix-backend-server.onrender.com${selectedApplication.resumePath}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center text-blue-600 hover:text-blue-500"

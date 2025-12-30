@@ -21,7 +21,7 @@ const ReactQuill = dynamic(() => import('react-quill-new'), {
 });
 
 // Backend base URL - should match your Express server
-const API_BASE = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:5001';
+const API_BASE = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://atorix-backend-server.onrender.com';
 
 // Match backend slugification
 const slugify = (text) => text

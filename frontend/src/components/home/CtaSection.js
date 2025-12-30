@@ -142,7 +142,7 @@ export default function CtaSection() {
     setApiError(null);
 
     try {
-      const response = await fetch('http://localhost:5001/api/demo-requests', {
+      const response = await fetch('https://atorix-backend-server.onrender.com/api/demo-requests', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

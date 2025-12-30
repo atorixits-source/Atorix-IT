@@ -88,7 +88,7 @@ const upload = multer({
 // --- CORS ---
 const allowedOrigins = [
   'http://localhost:3000',
-  'http://localhost:5001',
+  'https://atorix-backend-server.onrender.com',
   'http://localhost:5000',
   'http://localhost:3001',
   'https://atorix-it.vercel.app'

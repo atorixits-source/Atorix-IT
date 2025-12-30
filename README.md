@@ -58,7 +58,7 @@ The project is split into two main directories:
 
 3. Create a `.env.local` file in the frontend directory with the following variables:
    ```
-   NEXT_PUBLIC_API_URL=http://localhost:5001
+   NEXT_PUBLIC_API_URL=https://atorix-backend-server.onrender.com
    ```
 
 4. Start the frontend development server:

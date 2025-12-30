@@ -121,7 +121,7 @@ export default function GetDemoPage() {
       console.log('Submitting demo request payload:', payload);
 
       // Submit to backend API
-      // This calls the function in @/lib/api.js, which POSTs to http://localhost:5001/api/demo-requests
+      // This calls the function in @/lib/api.js, which POSTs to /demo-requests
       const result = await submitDemoRequest(payload);
       
       if (!result.success) {
@@ -148,7 +148,7 @@ export default function GetDemoPage() {
     } catch (error) {
       console.error('Form submission error:', error);
       setApiError(
-        error.message || 
+        error.message || https://atorix-backend-server.onrender.com/api
         'An error occurred while submitting the form. Please try again or contact support.'
       );
       

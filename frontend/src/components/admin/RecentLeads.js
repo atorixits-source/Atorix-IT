@@ -43,7 +43,7 @@ export default function RecentLeads() {
       setError(null);
       console.log('Fetching leads from API...');
       
-      const response = await fetch("http://localhost:5001/api/demo-requests", {
+      const response = await fetch("https://atorix-backend-server.onrender.com/api/demo-requests", {
         credentials: "include"
       });
 

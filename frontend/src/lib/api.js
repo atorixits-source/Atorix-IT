@@ -13,13 +13,13 @@ export function getAuthHeader() {
 }
 
 // Get API configuration from environment variables
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:5001';
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://atorix-backend-server.onrender.com';
 
 // Alternative API base URL configuration (from integrated file)
 // Uses NEXT_PUBLIC_API_URL with fallback to render.com for production
 const isDevelopment = process.env.NODE_ENV === 'development';
 export const API_BASE_URL_ALT = process.env.NEXT_PUBLIC_API_URL ||
-                                 (isDevelopment ? 'http://localhost:5001' : 'https://atorix-it.onrender.com');
+                                 (isDevelopment ? 'https://atorix-backend-server.onrender.com' : 'https://atorix-it.onrender.com');
 
 // API endpoints configuration
 export const API_ENDPOINTS = {

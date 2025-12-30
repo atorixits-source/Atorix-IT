@@ -28,7 +28,7 @@ cp .env.example .env.local
 Edit the `.env.local` file to set the backend API URL:
 
 ```
-NEXT_PUBLIC_API_URL=http://localhost:5001  # Or your production API URL
+NEXT_PUBLIC_API_URL=https://atorix-backend-server.onrender.com  # Or your production API URL
 ```
 
 3. **Start Development Server**
@@ -54,7 +54,7 @@ cp .env.example .env  # Then edit .env with your credentials
 npm run dev
 ```
 
-The backend server will run on `http://localhost:5001` by default.
+The backend server will run on `https://atorix-backend-server.onrender.com` by default.
 
 ## Forms Integration
 

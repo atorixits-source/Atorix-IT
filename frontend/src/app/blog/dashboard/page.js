@@ -491,7 +491,7 @@ export default function BlogAdminPanel() {
       }
 
       // Get the base URL from environment variables
-      let baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api/blog';
+      let baseUrl = process.env.NEXT_PUBLIC_API_URL || 'https://atorix-blogs-server1.onrender.com/api/blog';
       
       // Clean up the base URL
       baseUrl = baseUrl.trim();

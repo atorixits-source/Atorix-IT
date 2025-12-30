@@ -1,7 +1,7 @@
 // Use NEXT_PUBLIC_API_BASE_URL for main admin API (port 5001)
 // NEXT_PUBLIC_API_URL is for blog API (port 5000)
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5001";
+  process.env.NEXT_PUBLIC_API_BASE_URL || "https://atorix-backend-server.onrender.com";
 
 class ApiInterceptor {
   constructor() {
