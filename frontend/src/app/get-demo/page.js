@@ -148,8 +148,7 @@ export default function GetDemoPage() {
     } catch (error) {
       console.error('Form submission error:', error);
       setApiError(
-        error.message || https://atorix-backend-server.onrender.com/api
-        'An error occurred while submitting the form. Please try again or contact support.'
+        error.message || 'https://atorix-backend-server.onrender.com/api-  An error occurred while submitting the form. Please try again or contact support.'
       );
       
       window.scrollTo({ top: 0, behavior: 'smooth' });
