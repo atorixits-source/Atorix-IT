@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Process Consulting Icon</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3,4H21V8H3V4M3,10H21V14H3V10M3,16H21V20H3V16Z" fill="currentColor" fill-rule="nonzero"></path>
+        <path d="M9,5H12V7H9V5Z" fill="background" fill-rule="nonzero"></path>
+        <path d="M9,11H12V13H9V11Z" fill="background" fill-rule="nonzero"></path>
+        <path d="M9,17H12V19H9V17Z" fill="background" fill-rule="nonzero"></path>
+        <circle cx="15" cy="6" r="1" fill="background" fill-rule="nonzero"></circle>
+        <circle cx="15" cy="12" r="1" fill="background" fill-rule="nonzero"></circle>
+        <circle cx="15" cy="18" r="1" fill="background" fill-rule="nonzero"></circle>
+    </g>
+</svg>

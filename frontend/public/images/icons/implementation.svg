@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Implementation Icon</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6,2H18A2,2 0 0,1 20,4V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V4A2,2 0 0,1 6,2M6,4V8H18V4H6M6,10V12H18V10H6M6,14V16H18V14H6M6,18V20H18V18H6Z" fill="currentColor" fill-rule="nonzero"></path>
+    </g>
+</svg>

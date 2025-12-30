@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Technology Consulting Icon</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,2H16V4H8V2M16,18H18V6H6V18H8V8H16V18M8,20V22H16V20H8Z" fill="currentColor" fill-rule="nonzero"></path>
+        <path d="M12,9.5A2.5,2.5 0 0,1 14.5,12A2.5,2.5 0 0,1 12,14.5A2.5,2.5 0 0,1 9.5,12A2.5,2.5 0 0,1 12,9.5M12,11A1,1 0 0,0 11,12A1,1 0 0,0 12,13A1,1 0 0,0 13,12A1,1 0 0,0 12,11Z" fill="currentColor" fill-rule="nonzero"></path>
+        <path d="M12,17.5C14.76,17.5 17,15.26 17,12.5V7H7V12.5C7,15.26 9.24,17.5 12,17.5Z" stroke="currentColor" stroke-width="1" fill="none"></path>
+    </g>
+</svg>
