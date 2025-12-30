@@ -5,7 +5,7 @@
 import { apiRequest, API_ENDPOINTS, getApiUrl } from './api';
 
 // Blog API URL configuration - Blog API runs on port 5000 (from integrated file)
-export const BLOG_API_BASE_URL = 'http://localhost:5000/api/blog';
+export const BLOG_API_BASE_URL = 'https://atorix-blogs-server1.onrender.com/api/blog';
 
 // Token and session keys (from integrated file)
 export const TOKEN_KEY = 'atorix_auth_token';

@@ -10,14 +10,28 @@ const bcrypt = require('bcryptjs');
 const app = express();
 
 
-// Middleware
+const allowedOrigins = [
+  process.env.FRONTEND_URL || 'http://localhost:3000',
+  'https://atorix-it.vercel.app',
+  'https://atorix-blogs-server1.onrender.com'   // 👈 yaha apna new link daalo
+    // (optional) aur bhi add kar sakte ho
+];
+
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps, Postman, server-server)
+    if (!origin || allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+    return callback(new Error('CORS not allowed'));
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
 app.use(express.json());
+
 
 
 // Database connection
