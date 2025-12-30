@@ -91,7 +91,7 @@ const allowedOrigins = [
   'http://localhost:5001',
   'http://localhost:5000',
   'http://localhost:3001',
-  'https://your-production-frontend-url.com'
+  'https://atorix-it.vercel.app'
 ];
 
 const corsOptions = {
