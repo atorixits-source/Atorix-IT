@@ -314,7 +314,7 @@ export default function UserManagement() {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/blog/register', {
+      const response = await fetch('https://atorix-blogs-server1.onrender.com/api/blog/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
