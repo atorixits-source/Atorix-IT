@@ -91,7 +91,8 @@ const allowedOrigins = [
   'https://atorix-backend-server.onrender.com',
   'http://localhost:5000',
   'http://localhost:3001',
-  'https://atorix-it.vercel.app'
+  'https://atorix-it.vercel.app',
+  'https://www.atorixit.com'
 ];
 
 const corsOptions = {

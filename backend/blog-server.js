@@ -47,6 +47,7 @@ const app = express();
 const allowedOrigins = [
   process.env.FRONTEND_URL || 'http://localhost:3000',
   'https://atorix-it.vercel.app',   // 👈 add new link here
+  'https://www.atorixit.com',
     
 ];
 
